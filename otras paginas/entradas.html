@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurante la 39</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/img/restaurante.png" />
+  </head>
+
+  <body id="inicio">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container" id="inicio">
+       
+          <img src="/img/restaurante.png" alt="Restaurante la 39" class="img-logo m-3" />
+          <h2 class="active color">Restaurante La 39</h2>
+        
+        <button
+          class="navbar-toggler  "
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/index.html"
+                ><i class="bi bi-house-door-fill Home "></i>
+                <span>Inicio</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/menu.html">
+                <i class="bi bi-fire active"></i>
+                <span>Menu</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              <i class="bi bi-file-richtext"></i>
+              <span>Blog</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/blog.html#chefs"
+                    ><i>Nuestros chefs</i></a
+                  >
+                </li>
+           
+              
+                <li>
+                  <a class="dropdown-item" href="/blog.html#testimonios"
+                    ><i>Comentarios de clientes</i></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/reservas.html"><i class="bi bi-calendar-check"></i>
+                <span>Reservas</span></a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="/contacto.html"><i class="bi bi-file-richtext"></i>
+                <span>Contacto</span></a>
+            </li>
+          </ul>
+          <div class="social">
+            <a href="tel:+1123-456-7890">
+                <i class="fa-solid fa-phone"></i>+573205169171
+            </a>
+            <a
+                href="https://api.whatsapp.com/send?phone=3205169171"
+                target="_blank"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+        </div>
+        </div>
+      </div>
+    </nav>
+    
+
+<main class="main pt-5">
+
+  <div class="sticky-buttons">
+    <div class="botones-tarjetas shadow-buttons">
+      <a href="desayunos.html">Desayunos</a>
+      <a href="entradas.html">Entradas</a>
+      <a href="platosFuertes.html">Platos Fuertes</a>
+      <a href="postres.html">Postres</a>
+      <a href="menuInfantil.html">Menu Infantil</a>
+      <a href="ensaladas.html">Ensaladas</a>
+      <a href="bebidas.html">Bebidas</a>
+      <a href="bebidasAlcoholicas.html">Bebidas Alcoholicas</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="text-center color tipo2 pb-5">Entradas y aperitivos</h2>
+    <section class="row align-items-lg-center min-vh-100">
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/entrada1.jpg" class="card-img-top img-fluid" alt="picada de fruta" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Picada de frutas con helado <br> <b><font color="red">$ 10000</font></b></h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#entrada1">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="entrada1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Entradas</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/entrada1.jpg" alt="picada de frutas" class="img-fluid">
+              <h2 class="tipo2">
+                Picada de fruta con Helado por solo:<br><b><font color="red">$ 10000</font></b>
+              </h2>
+              <p>Disfruta de esta deliciosa picada, esta hecha con distintos tipos de frutas y ademas contiene un delicios helado que te hara que te chupes los dedos, que esperas y pide el tuyo ahora</p>
+              <button onclick="comprarEnWhatsApp('Picada de fruta con helado', 10000)">Comprar en WhatsApp</button>
+                   
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/entrada2.jpg" class="card-img-top img-fluid" alt="empanada de pollo" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Empanada de pollo <br> <b><font color="red">$ 10000</font></b></h5></h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#entrada2">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="entrada2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Entradas</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/entrada2.jpg" alt="Empanada de pollo" class="img-fluid">
+              <h2 class="tipo2">
+               Empanada de pollo por solo:<br><b><font color="red">$ 10000</font></b>
+              </h2>
+              <p>Disfruta de esta deliciosa picada, esta hecha con distintos tipos de frutas y ademas contiene un delicios helado que te hara que te chupes los dedos, que esperas y pide el tuyo ahora</p>
+              <button onclick="comprarEnWhatsApp('Empanada de pollo', 10000)">Comprar en WhatsApp</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/entrada3.jpeg" class="card-img-top img-fluid" alt="chorizo con patacon" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Chorizo con patacon <br> <b><font color="red">$ 10000</font></b></h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#entrada3">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="entrada3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Entradas</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/entrada3.jpeg" alt="Chorizo con patacon" class="img-fluid">
+              <h2 class="tipo2">
+                Chorizo con patacon por solo:<br><b><font color="red">$ 10000</font></b>
+              </h2>
+              <p>Disfruta de esta deliciosa picada, esta hecha con distintos tipos de frutas y ademas contiene un delicios helado que te hara que te chupes los dedos, que esperas y pide el tuyo ahora</p>
+              <button onclick="comprarEnWhatsApp('Chorizo con patacon', 10000)">Comprar en WhatsApp</button>
+                   
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+
+     
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/entrada4.jpg" class="card-img-top img-fluid" alt="buñuelos de bacalao"/>
+          <div class="card-body">
+            <h5 class="card-title tipo2">Buñuelos de bacalao <br> <b><font color="red">$ 10000</font></b></h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#entrada4">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="entrada4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Entradas</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/entrada4.jpg" alt="buñuelo de bacalao" class="img-fluid">
+              <h2 class="tipo2">
+                Buñuelo de bacalao por solo:<br><b><font color="red">$ 10000</font></b>
+              </h2>
+              <p>Disfruta de esta deliciosa picada, esta hecha con distintos tipos de frutas y ademas contiene un delicios helado que te hara que te chupes los dedos, que esperas y pide el tuyo ahora</p>
+              <button onclick="comprarEnWhatsApp('buñuelo de bacalao', 10000)">Comprar en WhatsApp</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/entrada5.jpg" class="card-img-top img-fluid" alt="Croquetas de cangrejo" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Croquetas de cangrejo <br><b><font color="red">$ 10000</font></b></h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#entrada5">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="entrada5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Entradas</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/entrada5.jpg" alt="Croquetas de cangrejo" class="img-fluid">
+              <h2 class="tipo2">
+                Croquetas de cangrejo por solo:<br><b><font color="red">$ 10000</font></b>
+              </h2>
+              <p>Disfruta de esta deliciosa picada, esta hecha con distintos tipos de frutas y ademas contiene un delicios helado que te hara que te chupes los dedos, que esperas y pide el tuyo ahora</p>
+              <button onclick="comprarEnWhatsApp('Croquetas de cangrejo', 10000)">Comprar en WhatsApp</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/entrada6.webp" class="card-img-top img-fluid" alt="mandoca con queso" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">mandoca con queso <br><b><font color="red">$ 10000</font></b></h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#entrada6">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="entrada6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Entradas</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/entrada6.webp" alt="Commerce AI" class="img-fluid">
+              <h2 class="tipo2">
+                Mandoca con queso por solo:<br><b><font color="red">$ 10000</font></b>
+              </h2>
+              <p>Disfruta de esta deliciosa picada, esta hecha con distintos tipos de frutas y ademas contiene un delicios helado que te hara que te chupes los dedos, que esperas y pide el tuyo ahora</p>
+              <button onclick="comprarEnWhatsApp('mandoca con queso', 10000)">Comprar en WhatsApp</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/entrada7.jpeg" class="card-img-top img-fluid" alt="seviche de pescado" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Seviche de pescado <br><b><font color="red">$ 10000</font></b></h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#entrada7">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="entrada7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Entradas</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/entrada7.jpeg" alt="seviche de pescado" class="img-fluid">
+              <h2 class="tipo2">
+                seviche de pesacdo por solo:<br><b><font color="red">$ 10000</font></b>
+              </h2>
+              <p>Disfruta de esta deliciosa picada, esta hecha con distintos tipos de frutas y ademas contiene un delicios helado que te hara que te chupes los dedos, que esperas y pide el tuyo ahora</p>
+              <button onclick="comprarEnWhatsApp('seviche de pescado', 10000)">Comprar en WhatsApp</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+   
+
+  
+       </section>
+      </div>
+
+      <button class="button">
+        <a href="#inicio" class="material-symbols-outlined button">
+            arrow_upward</a>
+    </button>
+        </main>
+
+       
+   
+
+    <footer class=" pt-5">
+        <section id="footer">
+          <div class="row fila">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+              
+                  <img src="/img/restaurante.png" alt="Restaurante la 39" class="img-logo"/>
+                  <h4 class="text-white color">Restaurante La 39</h4>
+              </div>
+              
+              
+              <div class="col-sm-12 col-md-6 col-lg-3">
+          
+                <h3 class="tipo">Dirección</h3>
+                <p>calle 39, cr-10A Monteria</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <h3 class="tipo">Social Media</h3>
+              <div class="media">
+                <a href="https://facebook.com" target="_blank"
+                ><i class="bi bi-facebook fs-3"></i
+              ></a>
+              <a href="https://twitter.com" target="_blank"
+                ><i class="bi bi-twitter fs-3"></i
+              ></a>
+            
+              <a href="https://instagram.com" target="_blank"
+                ><i class="bi bi-instagram fs-3"></i
+              ></a>
+              <a href="https://m.me/user" target="_blank"
+                ><i class="bi bi-messenger fs-3"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send?phone=5215512345678"
+                target="_blank"
+                ><i class="bi bi-whatsapp fs-3"></i
+              ></a>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <h3 class="tipo">Contacto</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+                 
+              </div>
+        
+  
+    
+  </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

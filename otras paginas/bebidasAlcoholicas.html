@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurante la 39</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="/img/restaurante.png" />
+  </head>
+
+  <body id="inicio">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container" id="inicio">
+       
+          <img src="/img/restaurante.png" alt="Restaurante la 39" class="img-logo m-3"/>
+          <h2 class="active color">Restaurante La 39</h2>
+        
+        <button
+          class="navbar-toggler  "
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="/index.html"
+                ><i class="bi bi-house-door-fill Home "></i>
+                <span>Inicio</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/menu.html">
+                <i class="bi bi-fire active"></i>
+                <span>Menu</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              <i class="bi bi-file-richtext"></i>
+              <span>Blog</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/blog.html#chefs"
+                    ><i>Nuestros chefs</i></a
+                  >
+                </li>
+              
+                <li>
+                  <a class="dropdown-item" href="/blog.html#testimonios"
+                    ><i>Comentarios de clientes</i></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/reservas.html"><i class="bi bi-calendar-check"></i>
+                <span>Reservas</span></a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="/contacto.html"><i class="bi bi-file-richtext"></i>
+                <span>Contacto</span></a>
+            </li>
+          </ul>
+          <div class="social">
+            <a href="tel:+1123-456-7890">
+                <i class="fa-solid fa-phone"></i>+573205169171
+            </a>
+            <a
+                href="https://api.whatsapp.com/send?phone=3205169171"
+                target="_blank"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+        </div>
+        </div>
+      </div>
+    </nav>
+    
+
+<main class="main pt-5">
+
+
+  <div class="sticky-buttons">
+    <div class="botones-tarjetas shadow-buttons">
+      <a href="desayunos.html">Desayunos</a>
+      <a href="entradas.html">Entradas</a>
+      <a href="platosFuertes.html">Platos Fuertes</a>
+      <a href="postres.html">Postres</a>
+      <a href="menuInfantil.html">Menu Infantil</a>
+      <a href="ensaladas.html">Ensaladas</a>
+      <a href="bebidas.html">Bebidas</a>
+      <a href="bebidasAlcoholicas.html">Bebidas Alcoholicas</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2 class="text-center color tipo2 p-5">Cocteles y Bebidas Alcoholicas</h2>
+    <section class="row align-items-lg-center min-vh-100">
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidasA1.png" class="card-img-top img-fluid" alt="cerveza corona" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Cerveza Corona</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA1">Ver </a>
+   
+             
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas alcoholicas y cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidasA1.png" alt="Cerveza corona" class="img-fluid">
+              <h2 class="tipo2">
+                Cerveza Corona por solo:<br><b><font color="red">$ 4000</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Cerveza corona', 4000)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidaA2.png" class="card-img-top img-fluid" alt="cerveza heineken" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Cerveza Heineken</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA2">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas Alcholicas y Cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidaA2.png" alt="Commerce AI" class="img-fluid">
+              <h2 class="tipo2">
+                Cerveza heineken por solo:<br><b><font color="red">$ 4000</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Cerveza Heineken', 4000)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidaA3.jpg" class="card-img-top img-fluid" alt="Cerveza aguila" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Cerveza Aguila Light</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA3">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas Alcholicas y Cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidaA3.jpg" alt="Commerce AI" class="img-fluid">
+              <h2 class="tipo2">
+                Cerveza Aguila Light $por solo:<br><b><font color="red">$ 3500</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Cerveza Aguila Light', 3500)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+
+     
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidaA4.jpg" class="card-img-top img-fluid" alt="Cerveza costeña"/>
+          <div class="card-body">
+            <h5 class="card-title tipo2">Cerveza Costeña</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA4">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas Alcholicas y Cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidaA4.jpg" alt="Cerveza costeña" class="img-fluid">
+              <h2 class="tipo2">
+                Cerveza Costeñapor solo:<br><b><font color="red">$ 3500</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Cerveza costeña', 3500)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidaA5.png" class="card-img-top img-fluid" alt="Cerveza Nativa" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Cerveza Nativa</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA5">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas Alcoholicas y Cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidaA5.png" alt="Cerveza nativa" class="img-fluid">
+              <h2 class="tipo2">
+                Cerveza Nativa por solo:<br><b><font color="red">$ 3500</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Cerveza nativa', 3500)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidaA6.webp" class="card-img-top img-fluid" alt="Vino gato negro" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Vino gato negro</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA6">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas Alcoholicas y cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidaA6.webp" alt="vino gato negro" class="img-fluid">
+              <h2 class="tipo2">
+                vino gato negro por solo:<br><b><font color="red">$ 15000</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Vino gato negro', 15000)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidaA7.jpg" class="card-img-top img-fluid" alt="coctel piña colada" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Coctel piña colada</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA7">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas Alcoholicas y Cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidaA7.jpg" alt="Commerce AI" class="img-fluid">
+              <h2 class="tipo2">
+                Coctel Piña colada por solo:<br><b><font color="red">$ 8000</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Coctel Piña colada', 8000)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidaA8.jpg" class="card-img-top img-fluid" alt="Coctel Bloody Mary" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Coctel Bloody Mary</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA8">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas Alcoholicas y Cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidaA8.jpg" alt="Commerce AI" class="img-fluid">
+              <h2 class="tipo2">
+                Coctel Bloody Mary por solo:<br><b><font color="red">$ 8000</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Coctel Bloody Mary', 8000)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidaA9.jpg" class="card-img-top img-fluid" alt="Coctel Margarita" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Coctel Margarita</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA9">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas alcoholicas y cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidaA9.jpg" alt="Commerce AI" class="img-fluid">
+              <h2 class="tipo2">
+                Coctel Margarita por solo:<br><b><font color="red">$ 8000</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Coctel Margarita', 8000)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+
+      <article class="col-12 col-md-6 col-lg-4 d-flex">
+        <div class="card border-primary mx-auto mb-3" style="width: 18rem">
+          <img src="img/bebidaA10.jpg" class="card-img-top img-fluid" alt="Coctel de maracuya" />
+          <div class="card-body">
+            <h5 class="card-title tipo2">Coctel de maracuya y ron</h5>
+            <a href="#" class="btn " data-bs-toggle="modal" data-bs-target="#bebidaA10">Ver</a>
+          </div>
+        </div>
+      </article>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="bebidaA10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title fs-5 tipo2" id="exampleModalLabel">Bebidas alcohicas y cocteles</a></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="img/bebidaA10.jpg" alt="Commerce AI" class="img-fluid">
+              <h2 class="tipo2">
+                Coctel de Maracuya y ron por solo:<br><b><font color="red">$ 8000</font></b>
+              </h2>
+              <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i> El consumo excesivo de alcohol puede ser perjudicial para tu salud.
+              </div>
+              <button onclick="comprarEnWhatsApp('Cerveza corona', 8000)">Comprar en WhatsApp</button>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  
+       </section>
+      </div>
+
+
+      <button class="button">
+        <a href="#inicio" class="material-symbols-outlined button">
+            arrow_upward</a>
+    </button>
+        </main>
+
+       
+   
+
+    <footer class=" pt-5">
+        <section id="footer">
+          <div class="row fila">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+              
+                  <img src="/img/restaurante.png" alt="Restaurante la 39" class="img-logo m-3"/>
+                  <h4 class="text-white color">Restaurante La 39</h4>
+              </div>
+              
+              
+              <div class="col-sm-12 col-md-6 col-lg-3">
+          
+                <h3 class="tipo">Dirección</h3>
+                <p>calle 39, cr-10A Monteria</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <h3 class="tipo">Social Media</h3>
+              <div class="media">
+                <a href="https://facebook.com" target="_blank"
+                ><i class="bi bi-facebook fs-3"></i
+              ></a>
+              <a href="https://twitter.com" target="_blank"
+                ><i class="bi bi-twitter fs-3"></i
+              ></a>
+            
+              <a href="https://instagram.com" target="_blank"
+                ><i class="bi bi-instagram fs-3"></i
+              ></a>
+              <a href="https://m.me/user" target="_blank"
+                ><i class="bi bi-messenger fs-3"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send?phone=5215512345678"
+                target="_blank"
+                ><i class="bi bi-whatsapp fs-3"></i
+              ></a>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <h3 class="tipo">Contacto</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+                 
+              </div>
+        
+  
+    
+  </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
